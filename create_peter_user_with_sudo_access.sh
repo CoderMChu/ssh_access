@@ -2,7 +2,7 @@
 
 MY_SHELL=$( which bash )
 
-/usr/sbin/useradd -c 'Michael CHu <mch@ihtsdo.org' -s ${MY_SHELL} -m michael
+/usr/sbin/useradd -c 'Michael Chu <mch@ihtsdo.org' -s ${MY_SHELL} -m michael
 cat >/etc/sudoers.d/michael-ALL <<EOF
 michael     ALL=(ALL:ALL) NOPASSWD: ALL
 EOF
